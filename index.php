@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Big Text Example</title>
+</head>
+<body>
+    <h1>Coin Go Download</h1>
+</body>
+</html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Screen with Links</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            background-color: black;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: white;
+        }
+        .icon {
+            margin-bottom: 30px;
+        }
+        .button {
+            background-color: black;
+            color: white;
+            border: 1px solid white;
+            padding: 10px 20px;
+            margin: 5px;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none; /* Removes underline from links */
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color: gray;
+        }
+    </style>
+</head>
+<body>
+    <div class="icon">
+        <img src="images/icon.png" alt="Icon" width="50" height="50">
+    </div>
+    <div class="buttons">
+        <a href="https://www.example.com" class="button" target="_blank">Android</a>
+        <a href="https://www.anotherexample.com" class="button" target="_blank">Windows</a>
+        <div class="button">Iphone</div>
+    </div>
+</body>
+</html>
